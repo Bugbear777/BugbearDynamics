@@ -9,10 +9,10 @@ export default function Navbar() {
         </Link>
 
         <ul className="nav-links">
-          <li><Link href="#vehicles">Vehicles</Link></li>
-          <li><Link href="#mission">Mission</Link></li>
-          <li><Link href="#features">Features</Link></li>
-          <li><Link href="#contact">Contact</Link></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/catalog">Catalog</Link></li>
+          <li><Link href="/#mission">Mission</Link></li>
+          <li><Link href="/#contact">Contact</Link></li>
         </ul>
       </nav>
     </header>
