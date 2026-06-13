@@ -1,75 +1,33 @@
-# Bugbear Dynamics
+# Overview
 
-## Project Summary
+Bugbear Dynamics is a TypeScript and Next.js web application built to organize and present a fictional catalog of light tactical vehicles. The software demonstrates how TypeScript can be used in a React-based project to create structured data models, reusable components, dynamic pages, and interactive UI features.
 
-Bugbear Dynamics is a React and Tailwind CSS web application created as a spin-off of the Apex Dynamics project. The site will present a fictional company that designs and showcases rugged vehicles, experimental machinery, and specialized equipment. The application will include a modern responsive layout, reusable React components, styled pages using Tailwind CSS, and interactive features that support a polished user experience.
+The application includes a landing page, navigation menu, footer, vehicle catalog page, reusable vehicle card components, and detailed vehicle pages. The catalog displays the base vehicle frames, while the detail pages provide additional information about each vehicle and its variants. Vehicle variants are displayed using a tabbed interface so users can switch between different configurations, roles, and specifications.
 
-The project will be developed collaboratively using GitHub, GitHub Projects, and good team workflow practices. Each team member will clone the repository, contribute through branches and commits, and help complete project work items tracked on the project board.
+The purpose of this project was to strengthen my understanding of TypeScript in a real web application. I wanted to practice defining custom types, passing typed props into components, organizing data in separate files, and using dynamic routes in Next.js. This project also helped me learn how TypeScript improves code reliability by making the structure of vehicle data clearer and easier to maintain as the project grows.
 
-## Team Members
+[Software Demo Video](http://youtube.link.goes.here)
 
-- Alex Cooper
-- Jessica Barnes
-- Joseph Marlow
+# Development Environment
 
-## Technology Stack
+This project was developed using Visual Studio Code as the main code editor. The application was created with `create-next-app@latest` and runs locally through the Next.js development server. Git and GitHub were used for version control and collaboration.
 
-- React
-- Tailwind CSS
-- JavaScript
-- HTML
-- CSS
-- GitHub
-- GitHub Projects
+The software was written with TypeScript, React, and Next.js. TypeScript was used to define the structure of vehicle and vehicle variant data. React components were used to build reusable parts of the interface, including the navigation menu, footer, catalog cards, and vehicle variant tabs. Next.js was used for routing, page structure, and application setup. CSS was written manually in a global stylesheet without Tailwind CSS.
 
-## Planned Features
+# Useful Websites
 
-- Responsive homepage
-- Vehicle or product catalog
-- Individual detail pages or cards
-- Navigation menu
-- About page
-- Contact or inquiry page
-- Shared layout components
-- Tailwind-based styling and theme
-- Interactive UI elements
-- Project documentation
+* [Next.js Documentation](https://nextjs.org/docs)
+* [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+* [React Documentation](https://react.dev/)
+* [MDN Web Docs](https://developer.mozilla.org/)
+* [CSS Tricks](https://css-tricks.com/)
 
-## Design Direction
+# Future Work
 
-Bugbear Dynamics will use a rugged industrial design style. The visual theme should feel bold, mechanical, and slightly aggressive while still being clean and easy to navigate.
-
-Possible design elements include:
-
-- Dark backgrounds
-- Orange, amber, or hazard-yellow accents
-- Steel gray panels
-- Bold headings
-- Card-based product displays
-- Strong button styles
-- Responsive grid layouts
-- Subtle hover animations
-
-## Project Management
-
-The team will use a GitHub Project board to track user stories, tasks, and progress. Work items will move through the following workflow:
-
-1. Backlog
-2. To Do
-3. In Progress
-4. Review / Testing
-5. Done
-
-## Basic Git Workflow
-
-Each team member should clone the repository, create a branch for their work, commit changes regularly, and push their branch to GitHub. Changes should be reviewed before merging into the main branch.
-
-Example workflow:
-
-```bash
-git clone <repository-url>
-cd bugbear-dynamics
-git checkout -b feature/home-page
-git add .
-git commit -m "Create homepage layout"
-git push origin feature/home-page
+* Add images or rendered previews for each vehicle and variant.
+* Improve the vehicle detail pages with more complete specifications and visual layouts.
+* Add filtering or sorting options to the catalog page.
+* Create individual sections for ground, air, and water vehicle catalogs.
+* Improve responsive styling for smaller screens.
+* Add more reusable components to reduce repeated page structure.
+* Replace placeholder demo video link with the final YouTube demonstration.
