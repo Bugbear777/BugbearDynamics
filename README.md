@@ -6,7 +6,7 @@ The application includes a landing page, navigation menu, footer, vehicle catalo
 
 The purpose of this project was to strengthen my understanding of TypeScript in a real web application. I wanted to practice defining custom types, passing typed props into components, organizing data in separate files, and using dynamic routes in Next.js. This project also helped me learn how TypeScript improves code reliability by making the structure of vehicle data clearer and easier to maintain as the project grows.
 
-[Software Demo Video]([http://youtube.link.goes.here](https://youtu.be/ZBCHimLivBU))
+[Software Demo Video]((https://youtu.be/ZBCHimLivBU))
 
 # Development Environment
 
