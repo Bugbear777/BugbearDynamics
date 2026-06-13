@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { vehicles } from "../../data/vehicles";
 
 export default function CatalogPage() {
@@ -16,7 +17,11 @@ export default function CatalogPage() {
       <section className="catalog-section">
         <div className="catalog-grid">
           {vehicles.map((vehicle) => (
-            <article className="catalog-card" key={vehicle.id}>
+            <Link
+              href={`/catalog/${vehicle.id}`}
+              className="catalog-card catalog-card-link"
+              key={vehicle.id}
+            >
               <div className="catalog-card-header">
                 <p className="vehicle-type">{vehicle.type}</p>
                 <h2>{vehicle.name}</h2>
@@ -39,7 +44,9 @@ export default function CatalogPage() {
                   <dd>{vehicle.weight}</dd>
                 </div>
               </dl>
-            </article>
+
+              <p className="view-details">View Details →</p>
+            </Link>
           ))}
         </div>
       </section>
